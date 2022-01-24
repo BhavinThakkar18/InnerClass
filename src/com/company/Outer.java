@@ -5,6 +5,12 @@ public class Outer {
     public void heyThere() {
         System.out.println("Hey there!");
     }
+    public static  class InnerClass{
+        public void  heyThere()
+        {
+            System.out.println("Static Ineer Class: Hey There!");
+        }
+    }
     public class Inner{
         public void  heyThere()
         {

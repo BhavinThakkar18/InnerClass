@@ -12,5 +12,7 @@ public class Main {
     outer.heyThere();
     Outer.Inner inner=outer.new Inner();
     inner.heyThere();
+    Outer.InnerClass in=new Outer.InnerClass();
+    in.heyThere();
     }
 }
